@@ -10,6 +10,9 @@ We recommend using Docker (e.g. via [fresh](https://github.com/wikimedia/fresh))
 
 * `npm install`
 
+### Compile Type Definitions
+* `npm run build`
+
 ### Run all code quality tools
 * `npm test`
 
