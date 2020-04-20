@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+    node:
+        build:
+            context: ./
+            dockerfile: ./Dockerfile
+        volumes:
+            - '~/.npm:/.npm'
+            - './:/app'
+        working_dir: /app
