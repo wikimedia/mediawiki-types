@@ -15,7 +15,6 @@
 		"target": "es5",
 		"allowJs": true,
 		"checkJs": true,
-		"noEmit": true,
-		"baseUrl": "."
+		"noEmit": true
 	}
 }

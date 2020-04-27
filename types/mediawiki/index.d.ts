@@ -1,4 +1,4 @@
-import MwLog from 'types/mediawiki/MwLog';
+import MwLog from './MwLog';
 
 export interface MediaWiki {
 	log: MwLog;
