@@ -5,7 +5,7 @@
 	"scripts": {
 		"build:types": "tsc",
 		"build": "npm-run-all build:*",
-		"test:lint": "eslint --cache --max-warnings 0 **/*.ts",
+		"test:lint": "eslint --cache --max-warnings 0 --ext .ts .",
 		"test": "npm-run-all test:*"
 	},
 	"license": "GPL-2.0-or-later",

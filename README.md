@@ -4,11 +4,14 @@ NOTE: This exists as a separate repository for the time being. It has been creat
 
 ## Development
 
-We recommend using Docker (e.g. via [fresh](https://github.com/wikimedia/fresh fresh)) as a development environment.
+We recommend using Docker (e.g. via [fresh](https://github.com/wikimedia/fresh)) as a development environment.
 
 ### Setup the development environment
 
 * `npm install`
+
+### Compile Type Definitions
+* `npm run build`
 
 ### Run all code quality tools
 * `npm test`
